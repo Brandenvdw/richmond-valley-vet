@@ -5,6 +5,9 @@ use Victoria\Enqueues;
 use Victoria\Filters;
 use Victoria\Settings\Site;
 use Victoria\Blocks\Hero;
+use Victoria\Shortcodes\Year;
+use Victoria\Blocks\Parallax;
+use Victoria\Blocks\MiddleHeadline;
 
 
 
@@ -48,3 +51,12 @@ $site->init();
 
 $hero = new Hero();
 $hero->init();
+
+$shortcode_year = new Year();
+$shortcode_year->init();
+
+$parallax = new Parallax();
+$parallax->init();
+
+$middle_headline = new MiddleHeadline;
+$middle_headline->init();

@@ -2,7 +2,7 @@
   "name": "statenweb/rand-dar",
   "type": "project",
   "license": "MIT",
-  "description": "Custom build for rand dar",
+  "description": "Custom build for richmond-valley-vet",
   "homepage": "https://statenweb.com",
   "authors": [
     {
@@ -84,10 +84,10 @@
   },
   "scripts": {
     "lint": [
-      "vendor/bin/phpcs ./web/wp-content/themes/rand-dar/  -d memory_limit=512M --ignore=*.js,./web/wp-content/themes/rand-dar/vendor/*,*.css --error-severity=1 --warning-severity=6"
+      "vendor/bin/phpcs ./web/wp-content/themes/richmond-valley-vet/  -d memory_limit=512M --ignore=*.js,./web/wp-content/themes/rand-dar/vendor/*,*.css --error-severity=1 --warning-severity=6"
     ],
     "code-fixer": [
-      "vendor/bin/phpcbf ./web/wp-content/themes/rand-dar/  -d memory_limit=512M --ignore=*.js,./web/wp-content/themes/rand-dar/vendor/*,*.css --error-severity=1 --warning-severity=6"
+      "vendor/bin/phpcbf ./web/wp-content/themes/richmond-valley-vet/  -d memory_limit=512M --ignore=*.js,./web/wp-content/themes/rand-dar/vendor/*,*.css --error-severity=1 --warning-severity=6"
     ]
   }
 }

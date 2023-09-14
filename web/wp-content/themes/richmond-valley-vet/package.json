@@ -47,5 +47,8 @@
 		"zip": "node node_scripts/zip.js _tw",
 		"bundle": "run-s production zip"
 	},
-	"prettier": "@wordpress/prettier-config"
+	"prettier": "@wordpress/prettier-config",
+	"dependencies": {
+		"tailwind-fontawesome": "^0.5.0"
+	}
 }

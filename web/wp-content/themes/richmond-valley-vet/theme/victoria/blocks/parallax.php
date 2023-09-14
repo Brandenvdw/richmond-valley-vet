@@ -4,10 +4,10 @@ namespace Victoria\Blocks;
 
 use Victoria\Base\Thing;
 
-class Hero extends Thing {
+class Parallax extends Thing {
 
-	const BLOCK_SLUG = 'hero';
-	const BLOCK_NAME = 'StatenWeb Hero';
+	const BLOCK_SLUG = 'parallax';
+	const BLOCK_NAME = 'StatenWeb Parallax';
 
 	public function attach_hooks() {
 		if ( function_exists( 'acf_register_block_type' ) ) {
@@ -29,6 +29,14 @@ class Hero extends Thing {
 				'align'           => 'full',
 				'mode'			=> 'preview',
 				'supports'		=> [
+					'align' 			=> false,
+					'color' 			=> [
+						'background' 	=> true,
+						'text' 			=> true,
+					],
+					'dimensions' => [
+						'minHeight' 	=> true,
+					],
 					'jsx' 			=> true,
 				],
 				'enqueue_assets'  => function() {

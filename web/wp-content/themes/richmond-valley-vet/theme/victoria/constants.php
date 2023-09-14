@@ -16,8 +16,8 @@ class Constants {
 
 	private static function inner_get(){
 		return array(
-			'menu-item' => 'text-[#C20000] hover:text-[#00ADEF] duration-300 transition-all text-[lg] px-5 py-3',
-			'hamburger-color' => 'bg-navy group-hover:bg-[#c20000]',
+			'menu-item' => 'text-primary hover:text-[#00ADEF] duration-300 transition-all text-[lg] px-5 py-3',
+			'hamburger-color' => 'bg-white group-hover:bg-primary',
 		);
 	}
 

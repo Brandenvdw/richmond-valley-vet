@@ -4,10 +4,10 @@ namespace Victoria\Blocks;
 
 use Victoria\Base\Thing;
 
-class Hero extends Thing {
+class MiddleHeadline extends Thing {
 
-	const BLOCK_SLUG = 'hero';
-	const BLOCK_NAME = 'StatenWeb Hero';
+	const BLOCK_SLUG = 'middleheadline';
+	const BLOCK_NAME = 'StatenWeb MiddleHeadline';
 
 	public function attach_hooks() {
 		if ( function_exists( 'acf_register_block_type' ) ) {

@@ -14,6 +14,9 @@ module.exports = {
 	theme: {
 		// Extend the default Tailwind theme.
 		extend: {},
+		container: {
+			center: true,
+		},
 	},
 	corePlugins: {
 		// Disable Preflight base styles in builds targeting the editor.
@@ -30,9 +33,11 @@ module.exports = {
 		// require('@tailwindcss/forms'),
 		// require('@tailwindcss/aspect-ratio'),
 		// require('@tailwindcss/container-queries')
-  function ({ addVariant }) {
-    addVariant('mobile-only', "@media screen and (max-width: theme('screens.md'))")
-  }
-
+		function ({ addVariant }) {
+			addVariant(
+				'mobile-only',
+				"@media screen and (max-width: theme('screens.md'))"
+			);
+		},
 	],
 };
