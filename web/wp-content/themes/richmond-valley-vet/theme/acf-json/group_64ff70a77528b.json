@@ -1,11 +1,11 @@
 {
     "key": "group_64ff70a77528b",
-    "title": "StatenWeb Parallax",
+    "title": "StatenWeb Feature Blog",
     "fields": [
         {
-            "key": "field_64ff70a7d4b03",
-            "label": "Parallax title",
-            "name": "parallax_title",
+            "key": "field_6503457f4cb2a",
+            "label": "Feature Title",
+            "name": "feature_title",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -21,6 +21,50 @@
             "placeholder": "",
             "prepend": "",
             "append": ""
+        },
+        {
+            "key": "field_650345af4cb2b",
+            "label": "Feature Link",
+            "name": "feature_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_65034ed6dddd4",
+            "label": "Featured Blog",
+            "name": "featured_blog",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "post"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0,
+            "bidirectional": 0,
+            "ui": 1,
+            "bidirectional_target": []
         }
     ],
     "location": [
@@ -28,7 +72,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/sw-parallax"
+                "value": "acf\/sw-featureblog"
             }
         ]
     ],
@@ -41,5 +85,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694462282
+    "modified": 1694715948
 }
