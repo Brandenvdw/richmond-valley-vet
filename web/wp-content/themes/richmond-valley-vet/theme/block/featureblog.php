@@ -17,6 +17,6 @@ if ( ! empty( $block['align'] ) ) {
 ?>
 
 <section id="<?php echo esc_attr( $id ); ?>" class="<?php echo esc_attr( $class_name ); ?>">
-	Hi I am Parallax
+	Hi I am Feature Blog
 
 </section>
